@@ -1,0 +1,72 @@
+/*=================================================
+||				Portfolio
+==================================================*/
+
+
+.portfolio-header{
+	background: #eaeaea;
+	text-transform: uppercase;
+}
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+	padding-top: 50px;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-default .navbar-brand{
+	border: 1px solid #f3f3f3;
+	color: #f3f3f3;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	color: #f3f3f3;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #f3f3f3;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	color: #f3f3f3;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #f3f3f3;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: #f3f3f3;
+}
+
+.section-background{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	text-transform: uppercase;
+}
+.breadcrumb{
+    padding: 235px 15px 0px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0px;
+}
+.breadcrumb .active{
+	color: #fff;
+}
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #fff;
+    content: "\f3d3";
+    font-family: "ionicons";
+}
+.breadcrumb a{
+	color: #fff;
+	border: 1px solid transparent;
+	text-decoration: none;
+	padding: 5px;
+}
+.breadcrumb a:hover{
+	color: #fff;
+	border: 1px solid #fff;
+}
+
