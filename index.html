@@ -56,7 +56,7 @@
 						<li><a href="#about">about</a></li>
 						<li><a href="#project">project</a></li>
 						<li><a href="#gallery">gallery</a></li>
-						<li><a href="#contact">contact</a></li>
+						<li><a href="#footer">contact</a></li>
 					</ul> <!-- /.nav -->
 			    </div><!-- /.navbar-collapse -->
 		  	</div><!-- /.container -->
@@ -92,8 +92,10 @@
 				<img src="assets/images/about.png" alt="Me">
 			</div>
 			<p class="about-detail">
-				I am currently a fourth-year computer science student at the University of Waterloo, Canada, with a computational fine art option.
+				I am a new graduate from the University of Waterloo, Canada. I have a bachelor degree in computer science with a computational fine art option.
 				I have experiences in mobile, web, and desktop applications development and have a passion in computer graphic and digital fine art.
+			</p>
+			<p class="about-detail">
 				Some other fun facts about me: I like cooking and baking. I love my dog Coco and my obese cat Momo.
 			</p>
 			<div class="pt5">
@@ -107,10 +109,10 @@
 
 	<section class="project_section" id="project">
 		<div class="container section-wrapper tz-gallery">
-			<h2 class="section-title black">
+			<h2 class="section-title light">
 				Project
 			</h2> <!-- /.section-title -->
-			<div class="underline worm"></div>
+			<div class="underline light-worm"></div>
 			<div class="row">
 				<div class="col-sm-6 col-md-4">
 					<div class="thumbnail height-380">
@@ -360,7 +362,7 @@
 
 
 			<div class="pt5">
-				<button id="project-btn" class="btn btn-lg button_trans" onclick="viewMoreProject()">VIEW MORE</button>
+				<button id="project-btn" class="btn btn-lg white_button_trans" onclick="viewMoreProject()">VIEW MORE</button>
 			</div>
 		</div> <!-- /.container -->
 	</section> <!-- /#header -->
@@ -369,17 +371,28 @@
 	<!-- Gallery -->
 	<section class="gallery-section color-bg" id="gallery">
 		<div class="container section-wrapper tz-gallery">
-			<h2 class="section-title light">
+			<h2 class="section-title black">
 				Gallery
 			</h2> <!-- /.section-title -->
-			<div class="underline light-worm"></div>
+			<div class="underline worm"></div>
 			<div id="columns">
 				<figure>
-					<a class="lightbox" href="assets/images/art/sea.jpg">
-						<img src="assets/images/art/sea.jpg">
+					<a class="lightbox" href="assets/images/art/field.jpg">
+						<img src="assets/images/art/field.jpg">
+						<figcaption><b>Grass field</b> <br>Tool: Photoshop</figcaption>
+					</a>
+				</figure>
+				<figure>
+					<a class="lightbox" href="assets/images/art/dance.jpg">
+						<img src="assets/images/art/dance.jpg">
+						<figcaption><b>Moon Dance</b> <br>Tool: Photoshop</figcaption>
+					</a>
+				</figure>
+				<figure>
+					<a class="lightbox" href="assets/images/art/rong2.jpg">
+						<img src="assets/images/art/rong2.jpg">
 						<figcaption><b>Sea</b> <br>Tool: Photoshop</figcaption>
 					</a>
-					<a class="lightbox" href="assets/images/art/sea.gif"></a>
 				</figure>
 
 				<figure>
@@ -455,13 +468,13 @@
 				<figure>
 					<a class="lightbox" href="assets/images/art/AE.jpg">
 						<img src="assets/images/art/AE.jpg">
-						<figcaption><b>Tree</b><br>Tool: pencil</figcaption>
+						<figcaption><b>Einstein</b><br>Tool: pencil</figcaption>
 					</a>
 				</figure>
 				<figure>
 					<a class="lightbox" href="assets/images/art/AR.jpg">
 						<img src="assets/images/art/AR.jpg">
-						<figcaption><b>Einstein</b><br>Tool: pencil and photoshop</figcaption>
+						<figcaption><b>Always</b><br>Tool: pencil and photoshop</figcaption>
 					</a>
 				</figure>
 				<figure>
@@ -471,88 +484,22 @@
 					</a>
 				</figure>
 			</div>
-			<!--<div class="pt5">-->
-				<!--<button class="btn btn-lg button_trans">VIEW MORE</button>-->
-			<!--</div>-->
 		</div>
 	</section>
 
 <!-- Contact with us -->
-<div class="footer_section">
-	<section class="contact section-wrapper" id="contact">
-		<div class="container">
-			<h2 class="section-title black">
-				Keep in Touch
-			</h2>
-			<div class="underline purple"></div>
-			<div class="row">
-				<div class="col-md-8 col-sm-12 col-xs-12">
-					<form class="row form">
-						<h3>Leave A Message</h3>
-						<div class="col-sm-4 col-xs-12 form-group">
-							<label class="sr-only">Name</label>
-							<input name="name" class="form-control" type="text" placeholder="First Name">
-						</div> <!-- /.form-group -->
-						<div class="col-sm-4 col-xs-12 form-group">
-							<label class="sr-only">Email</label>
-							<input name="email" class="form-control" type="email" placeholder="Email address">
-						</div> <!-- /.form-group -->
-						<div class="col-sm-4 col-xs-12 form-group">
-							<label class="sr-only">Website</label>
-							<input name="website" class="form-control" type="text" placeholder="Your website">
-						</div> <!-- /.form-group -->
-						<div class="row">
-							<div class="col-md-12 col-xs-12 form-group">
-								<label class="sr-only">Message</label>
-								<textarea class="message form-control" placeholder="Write message"></textarea>
-							</div> <!-- /.form-group -->
-							<input class="btn btn-sub" type="submit" value="Send Message">
-						</div>
-					</form> <!-- /.row -->
-				</div>
-
-				<div class="col-md-4 col-sm-12 col-xs-12 padding-70">
-					<ul class="no-bullet">
-						<li>
-							<div class="contact-item">
-								<!--<i class="ion-location"></i>-->
-								<h3>Address</h3>
-								<p class="contact">
-									333 Lester Street, Waterloo<br>
-									Ontario, Canada
-								</p>
-							</div>
-						</li>
-						<li>
-							<div class="contact-item">
-								<!--<i class="ion-ios-telephone"></i>-->
-								<h3>Phone</h3>
-								<p class="contact">
-									Mobile: 226-600-8752
-								</p>
-							</div>
-						</li>
-						<li>
-							<div class="contact-item">
-								<!--<i class="ion-ios-email"></i>-->
-								<h3>Email Address</h3>
-								<p class="contact">
-									<a href="mailto:k43wu0826@gmail.com">k43wu0826@gmail.com</a>
-								</p>
-							</div>
-						</li>
-					</ul>
-
-				</div>
-			</div>
-		</div> <!-- /.container -->
-	</section> <!-- /.contact -->
+<div class="footer_section" id="footer">
 	<!-- Footer -->
 	<footer class="footer-purple">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 text-center">
 					<div class="social-icon">
+						<a href="mailto:jwkaiqi@gmail.com">
+							<div class="icon fb">
+								<i class="ion-ios-email"></i>
+							</div>
+						</a>
 						<a href="https://www.facebook.com/jennifer.wu.5661">
 							<div class="icon fb">
 								<i class="ion-social-facebook"></i>

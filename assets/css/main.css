@@ -23,7 +23,7 @@ body
 	background: #fff ;
 }
 .purple{
-	background: #4a148c;
+	background: #574e4e;
 }
 
 .worm {
@@ -380,7 +380,7 @@ footer {
 }
 
 .footer-purple {
-	background: rgba(87, 55, 82, 0.67);
+	background: rgba(255, 255, 255, 0.25);
 }
 
 .footer-dark {
@@ -399,6 +399,9 @@ footer {
 	padding-left: 35%;
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+.email{
+	background: #1976d2;
 }
 .fb{
 	background: #1976d2;
@@ -511,7 +514,7 @@ a .icon:hover{
 }
 .project_section
 {
-	background: url('../images/bg3.jpg');
+	background: url('../images/bgTest.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -520,7 +523,7 @@ a .icon:hover{
 }
 
 .footer_section {
-	background: url('../images/bg10.jpg');
+	background: url('../images/bgTest.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;

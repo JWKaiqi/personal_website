@@ -3,7 +3,7 @@ gallery-section {
 }
 
 .color-bg {
-    background: url('../images/art/bg4.png');
+    background-color: #f3f3f3;
     background-size: cover;
     background-position: top center;
 }
@@ -44,7 +44,7 @@ gallery-section {
 }
 
 .tz-gallery .thumbnail {
-    background-color: rgba(255, 255, 255, 0.5) !important;
+    background-color: rgba(255, 255, 255, 0.6) !important;
     padding: 0;
     margin-bottom: 80px;
     border: none;
@@ -71,7 +71,7 @@ gallery-section {
 
 .tz-gallery .caption p {
     font-size: 14px;
-    color: #7b7d7d;
+    color: #555553;
     margin: 0;
 }
 
@@ -130,7 +130,7 @@ div#columns figure :hover .overlay {
 
 div#columns figure {
     /*overflow: hidden;*/
-    background: rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.7);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
     margin: 0 2px 25px;
     padding-bottom: 10px;

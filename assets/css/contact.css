@@ -3,7 +3,7 @@
 }
 .contact {
     text-align: left;
-    color: #574e4e;
+    color: rgba(255,255,255,0.8);
 }
 
 .contact i {
@@ -27,8 +27,8 @@
 }
 
 .contact-item:hover i{
-    background-color: #4a148c;
-    border: 2px solid #4a148c !important;
+    background-color: #573752;
+    border: 2px solid #573752 !important;
     color: #fff;
 }
 .contact h3{
@@ -37,18 +37,21 @@
 }
 .contact p{
 	font-size: 18px;
-	color: #625959;
+	color: rgba(255,255,255,0.8);
 }
 
+.contact a{
+    color: rgba(255,255,255,0.8);
+}
 .form{
     margin-top: 50px;
-    background: #dcd1d9;
+    background-color: rgba(255, 255, 255, 0.7);
     opacity: 0.8;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 1px 1px 10px 2px #c5b4c0;
 }
 .form h3{
+    color: #574e4e;
     margin-left: 15px;
     font-size: 25px;
 }
@@ -60,17 +63,17 @@
 .btn-sub {
     border-radius: 0px;
     color: white;
-    background-color: #4a148c;
+    background-color: #574e4e;
     padding: 10px 25px;
     margin: 10px 30px;
-    border-color: #4a148c;
+    border-color: #574e4e;
     text-transform: uppercase;
     transition: all .4s ease-in-out;
 }
 .btn-sub:hover{
     background-color: #fff;
-    border-color: #4a148c;
-    color: #4a148c;
+    border-color: #574e4e;
+    color: #574e4e;
 }
 input[type="username"], input[type="email"], input[type="text"], .message{
 	border-color: transparent;
@@ -79,7 +82,7 @@ input[type="username"], input[type="email"], input[type="text"], .message{
 	color: #969595;
 }
 input[type="username"]:focus, input[type="email"]:focus, input[type="text"]:focus, .message:focus{
-    border-color: #4a148c;
+    border-color: #574e4e;
     box-shadow: 0 0 8px rgba(74,20,140,.1) !important;
 }
 input.form-control, .message {
